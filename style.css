@@ -1,0 +1,81 @@
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  h4 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+}
+p {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 {
+  margin-left: 20px;
+}
+
+body {
+  text-align: justify;
+  padding-top: 60px;
+}
+
+table, th, td {
+  border: 2px solid black;
+  padding: 10px;
+}
+table td:hover, th td:hover, td td:hover {
+  background-color: #f5f5f5;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  margin-right: 20px;
+}
+
+#indeximage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  padding: 20px;
+}
+
+.col p {
+  text-align: center;
+}
+
+.day, .noun, .desu, .ha, .japanese {
+  font-weight: bold;
+}
+
+.ha {
+  background-color: lightblue;
+}
+
+.desu {
+  background-color: lightgoldenrodyellow;
+}
+
+.noun {
+  background-color: lightsalmon;
+}
+
+.day {
+  background-color: lightsteelblue;
+}
+
+/*# sourceMappingURL=style.css.map */

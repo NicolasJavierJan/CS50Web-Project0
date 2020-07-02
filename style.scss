@@ -1,0 +1,92 @@
+$pixels: 20px;
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 28px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    p {
+        font-size: 15px;
+    }
+}
+
+p {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+h4 {
+    margin-left: $pixels;
+}
+
+body {
+    text-align: justify;
+    padding-top: 60px;
+}
+
+table, th, td {
+    border: 2px solid black;
+    padding: 10px;
+    td:hover {
+        background-color: #f5f5f5;
+    }
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    margin-right: $pixels;
+}
+
+
+#indeximage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding: $pixels;
+}
+
+.col {
+    p {
+        text-align: center;
+    }
+}
+
+%japanese {
+    font-weight: bold;
+}
+
+.japanese {
+    @extend %japanese;
+}
+
+.ha {
+    @extend %japanese;
+    background-color: lightblue;
+}
+
+.desu {
+    @extend %japanese;
+    background-color: lightgoldenrodyellow;
+}
+
+.noun {
+    @extend %japanese;
+    background-color: lightsalmon;
+}
+
+.day {
+    @extend %japanese;
+    background-color: lightsteelblue;
+}
